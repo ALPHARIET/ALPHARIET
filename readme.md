@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=octocat&theme=radical" height="150" alt="stats graph"  />
+  <img src="https://github-stats-extended.vercel.app/api?username=ALPHARIET&theme=radical" height="150" alt="stats graph"  />
   <img src="https://raw.githubusercontent.com/ALPHARIET/ALPHARIET/languages-output/languages.svg" height="150" alt="languages graph"  />
 </div>
 
