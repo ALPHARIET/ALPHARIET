@@ -1,15 +1,1 @@
-
-    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#282a36" xmlns="http://www.w3.org/2000/svg">
-    <style>
-    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ff6e96 }
-    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8f8f2 }
-    .gray { fill: #858585 }
-    </style>
-    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#282a36" stroke="#e4e2e2"/>
-    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
-    <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">Resource not accessible by integration</tspan>
-      <tspan x="25" dy="18" class="gray">OK</tspan>
-    </text>
-    </svg>
-  
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="304" viewBox="0 0 1200 304" role="img" aria-labelledby="title desc"><title id="title">ALPHARIET public GitHub repository statistics</title><desc id="desc">16 public non-fork repositories, 13 stars, 5 primary languages. The language bar counts repositories, not code volume. Updated 2026-10-08 UTC.</desc><style>text{font-family:Arial,Helvetica,sans-serif}</style><rect x="1" y="1" width="1198" height="302" rx="18" fill="#111929" stroke="#293650"/><text x="32" y="35" font-size="13" fill="#80efd0" font-weight="700">GITHUB / PUBLIC REPOSITORIES</text><text x="967" y="35" font-size="13" fill="#71809b" font-weight="400">Updated 2026-10-08</text><text x="32" y="104" font-size="45" fill="#eff3ff" font-weight="700">16</text><text x="32" y="137" font-size="18" fill="#a9b8d4" font-weight="400">Public repositories</text><text x="365" y="104" font-size="45" fill="#eff3ff" font-weight="700">13</text><text x="365" y="137" font-size="18" fill="#a9b8d4" font-weight="400">Stars across repositories</text><text x="808" y="104" font-size="45" fill="#eff3ff" font-weight="700">5</text><text x="808" y="137" font-size="18" fill="#a9b8d4" font-weight="400">Primary languages</text><path d="M328 61V143M763 61V143M32 169H1168" stroke="#293650"/><text x="32" y="199" font-size="12" fill="#71809b" font-weight="700">REPOSITORIES BY PRIMARY LANGUAGE</text><rect x="32.00" y="218" width="530.13" height="10" fill="#f7d46e"/><rect x="562.13" y="218" width="227.20" height="10" fill="#ffa78e"/><rect x="789.33" y="218" width="151.47" height="10" fill="#aba4ff"/><rect x="940.80" y="218" width="151.47" height="10" fill="#80efd0"/><rect x="1092.27" y="218" width="75.73" height="10" fill="#82c9ff"/><circle cx="36" cy="263" r="4" fill="#f7d46e"/><text x="49" y="268" font-size="15" fill="#a9b8d4" font-weight="400">JavaScript · 7</text><circle cx="202" cy="263" r="4" fill="#ffa78e"/><text x="215" y="268" font-size="15" fill="#a9b8d4" font-weight="400">HTML · 3</text><circle cx="320" cy="263" r="4" fill="#aba4ff"/><text x="333" y="268" font-size="15" fill="#a9b8d4" font-weight="400">PHP · 2</text><circle cx="430" cy="263" r="4" fill="#80efd0"/><text x="443" y="268" font-size="15" fill="#a9b8d4" font-weight="400">Jupyter Notebook · 2</text><circle cx="644" cy="263" r="4" fill="#82c9ff"/><text x="657" y="268" font-size="15" fill="#a9b8d4" font-weight="400">Python · 1</text></svg>
