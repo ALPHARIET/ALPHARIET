@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">ALPHARIET — web apps and machine learning</title>
+  <desc id="desc">A charcoal banner with lime typography and a geometric cactus. Cactus from Mars.</desc>
+  <rect width="1200" height="360" rx="16" fill="#161918"/>
+  <path d="M48 64H1152M48 298H1152" stroke="#343b36"/>
+  <g font-family="'Courier New', monospace" font-size="15" fill="#a5b1a8" letter-spacing="2">
+    <text x="48" y="43">ALPHARIET / GITHUB</text>
+    <text x="1152" y="43" text-anchor="end">CACTUS FROM MARS</text>
+  </g>
+  <text x="43" y="181" fill="#d3f89a" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="700" letter-spacing="-5">ALPHARIET</text>
+  <text x="48" y="234" fill="#e2e8e2" font-family="Arial, Helvetica, sans-serif" font-size="25">Web apps. Machine learning. A few side quests.</text>
+  <text x="48" y="331" fill="#a5b1a8" font-family="'Courier New', monospace" font-size="15" letter-spacing="1">JAVASCRIPT / PYTHON / PHP</text>
+  <g transform="translate(946 97)">
+    <circle cx="76" cy="80" r="82" fill="none" stroke="#343b36"/>
+    <path d="M76 155V24M76 97H37V62M76 118H115V80" fill="none" stroke="#d3f89a" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M58 157H94" stroke="#a5b1a8" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="145" cy="16" r="5" fill="#d3f89a"/>
+    <path d="M-2 128H10M4 122V134" stroke="#a5b1a8" stroke-width="2"/>
+  </g>
+</svg>
