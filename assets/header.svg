@@ -1,20 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">ALPHARIET — web apps and machine learning</title>
-  <desc id="desc">A charcoal banner with lime typography and a geometric cactus. Cactus from Mars.</desc>
-  <rect width="1200" height="360" rx="16" fill="#161918"/>
-  <path d="M48 64H1152M48 298H1152" stroke="#343b36"/>
-  <g font-family="'Courier New', monospace" font-size="15" fill="#a5b1a8" letter-spacing="2">
-    <text x="48" y="43">ALPHARIET / GITHUB</text>
-    <text x="1152" y="43" text-anchor="end">CACTUS FROM MARS</text>
-  </g>
-  <text x="43" y="181" fill="#d3f89a" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="700" letter-spacing="-5">ALPHARIET</text>
-  <text x="48" y="234" fill="#e2e8e2" font-family="Arial, Helvetica, sans-serif" font-size="25">Web apps. Machine learning. A few side quests.</text>
-  <text x="48" y="331" fill="#a5b1a8" font-family="'Courier New', monospace" font-size="15" letter-spacing="1">JAVASCRIPT / PYTHON / PHP</text>
-  <g transform="translate(946 97)">
-    <circle cx="76" cy="80" r="82" fill="none" stroke="#343b36"/>
-    <path d="M76 155V24M76 97H37V62M76 118H115V80" fill="none" stroke="#d3f89a" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M58 157H94" stroke="#a5b1a8" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="145" cy="16" r="5" fill="#d3f89a"/>
-    <path d="M-2 128H10M4 122V134" stroke="#a5b1a8" stroke-width="2"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">ALPHARIET — web development, machine learning, and a cactus from Mars</title>
+<desc id="desc">Animated developer workspace with rotating interests and an orbiting cactus mascot.</desc>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#293248"/></pattern>
+<radialGradient id="glow"><stop stop-color="#253866" stop-opacity=".9"/><stop offset="1" stop-color="#0d1322" stop-opacity="0"/></radialGradient>
+<linearGradient id="ink" x2="1" y2="1"><stop stop-color="#f6f7ff"/><stop offset="1" stop-color="#afc5ff"/></linearGradient>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'Courier New',monospace}</style>
+<rect width="1200" height="430" rx="22" fill="#0d1322"/>
+<rect x="710" y="16" width="470" height="398" fill="url(#dots)"/>
+<ellipse cx="959" cy="215" rx="246" ry="210" fill="url(#glow)"/>
+<path d="M32 65H1168" stroke="#273149"/>
+<circle cx="43" cy="35" r="5" fill="#f58b99"/><circle cx="62" cy="35" r="5" fill="#ffd68a"/><circle cx="81" cy="35" r="5" fill="#80efd0"/>
+<text x="104" y="40" font-size="15" fill="#a8b5cd" class="mono">alphariet / workspace</text>
+<text x="1158" y="40" font-size="14" fill="#71809b" text-anchor="end" class="mono">README.md</text>
+<text x="48" y="116" font-size="14" fill="#80efd0" letter-spacing="2" class="mono">WEB DEVELOPMENT / MACHINE LEARNING</text>
+<text x="43" y="210" font-size="92" fill="url(#ink)" font-weight="700" letter-spacing="-4">ALPHARIET</text>
+<g><animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;.28;.32;.62;.66;.97;1" dur="15s" repeatCount="indefinite"/><text x="49" y="256" font-size="28" fill="#b6c4e2">Building web apps.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;.28;.32;.62;.66;.97;1" dur="15s" repeatCount="indefinite"/><text x="49" y="256" font-size="28" fill="#b6c4e2">Exploring machine learning.</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;.28;.32;.62;.66;.97;1" dur="15s" repeatCount="indefinite"/><text x="49" y="256" font-size="28" fill="#b6c4e2">Still a cactus from Mars.</text></g>
+<path d="M50 302H636" stroke="#273149"/>
+<text x="50" y="339" font-size="16" fill="#a8b5cd" class="mono">JavaScript · Python · PHP</text>
+<text x="50" y="386" font-size="17" fill="#71809b">Projects below. Side quests included.</text>
+<g transform="translate(963 222)">
+<circle r="102" fill="#18243e" stroke="#45577c"/>
+<path d="M-77-60Q0-23 77-60M-95-18Q0 33 95-18M-86 43Q0 89 86 43" fill="none" stroke="#283b5c" stroke-width="2"/>
+<ellipse rx="149" ry="37" fill="none" stroke="#748bf3" stroke-width="2" transform="rotate(-22)"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="22s" repeatCount="indefinite"/><circle cx="125" cy="-54" r="8" fill="#80efd0"/><circle cx="-125" cy="54" r="4" fill="#c7b8ff"/></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4s" repeatCount="indefinite"/>
+<g transform="translate(0 -13) scale(1.35)">
+<path d="M-18 34H18L13 59H-13Z" fill="#a5afff"/>
+<path d="M0 31V-24M0 7H-21V-10M0 18H23V-2" fill="none" stroke="#80efd0" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-13 42H13" stroke="#6570cb" stroke-width="2"/>
+<circle cx="-5" cy="-9" r="2" fill="#101727"/><circle cx="5" cy="-9" r="2" fill="#101727"/>
+<path d="M-3-3Q0 0 3-3" fill="none" stroke="#101727" stroke-width="1.6" stroke-linecap="round"/>
+</g></g></g>
+<circle cx="1114" cy="113" r="3" fill="#ffd68a"><animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/></circle>
+<path d="M789 333H801M795 327V339" stroke="#80efd0" stroke-width="2"/>
+<text x="964" y="385" font-size="13" fill="#899ec3" text-anchor="middle" letter-spacing="2" class="mono">CACTUS FROM MARS</text>
 </svg>

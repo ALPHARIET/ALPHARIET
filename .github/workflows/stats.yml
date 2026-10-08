@@ -1,36 +1,40 @@
-name: Generate stats card
+name: Refresh profile stats
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
+  schedule:
+    - cron: "17 0 * * *"
   workflow_dispatch:
-
   push:
-    branches:
-    - main
+    branches: [main]
+    paths:
+      - scripts/profile-stats.py
+      - .github/workflows/stats.yml
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
     steps:
-      - name: generate stats.svg
-        uses: readme-tools/github-readme-stats-action@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          card: stats
-          options: username=${{ github.ALPHARIET }}&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false
-          path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-
-      - name: push stats.svg to the output branch
+          python-version: "3.12"
+      - name: Generate public repository card
+        run: python scripts/profile-stats.py --owner "${{ github.repository_owner }}"
+      - name: Publish card
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: stats-output
+          keep_history: true
+          allow_empty_commit: false
           build_dir: dist
+          commit_message: Refresh public repository stats
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
